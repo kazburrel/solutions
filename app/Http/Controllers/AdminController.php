@@ -28,7 +28,7 @@ class AdminController extends Controller
         admin::create($FormFields);
         return redirect()->back();
     }
-
+    // hello i just want to make new comit today
     public function authenticate(Request $request)
     {
         $FormFields = $request->validate([
